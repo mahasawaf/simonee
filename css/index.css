@@ -1,0 +1,1577 @@
+
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.home{
+    height: 100vh;
+    background-image: url(intro-bg.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    background-attachment: fixed;
+    text-align: center
+    
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+    z-index: 999999;
+    position: fixed;
+}
+.left-nav{
+
+    width: 15%;
+    padding-right: 50px;
+    
+    
+
+}
+.left-nav h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: aliceblue;
+}
+
+.parent{
+  
+background-color: rgba(0,0,0, 0.8);
+width: 100%;
+height: 100%;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+.right-nav{
+width: 50%;
+padding: 10px;
+color: #4c4d4d;
+font-family: "Poppins", sans-serif;
+padding-left: 150px;
+
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    
+    list-style-type: none;
+
+
+}
+.navbar ul li a{
+
+    text-decoration: none;
+     color: #fff;
+    font-size: 16px;
+    font-weight: 600px;
+    
+    
+    
+}
+
+.navbar ul li a:hover{
+
+    color: #20c997;
+}
+
+
+
+
+.child{
+
+    font-family: "Poppins", sans-serif;
+}
+
+
+.child h3{
+    
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: #fff;
+        
+    
+}
+.child h1{
+        
+color: #fff;
+font-size: 70px;
+font-weight: 900;
+        
+}
+.child h5{
+    color: #fff;
+font-weight: 200;
+font-size: 20px;
+}
+.home button{
+    color: #20c997;
+    border-radius: 50px;
+    border-color: #20c997;
+    padding: 0.8rem 2.6rem;
+    font-weight: 500px;
+    font-size: 13px;
+    border-width: 2px;
+    margin-top: 30px;
+    box-shadow: none;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid ;
+    font-family: "Poppins", sans-serif;
+    transition-duration: 1s;
+
+}.home button:hover{
+    background-color: #20c997;
+    color: #fff;
+}
+
+@media screen and (max-width:900px) {
+
+    .navbar ul ,.navbar .left-nav  {
+        display: flex;
+        flex-direction: column;
+        padding-right: 170px;
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+        .navbar{
+            position: absolute;
+        }
+}
+
+
+.home2{
+    width: 100%;
+    margin-top: 50px;
+    
+    
+}
+.maha{
+    
+    width: 100%;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.maha h1{
+    font-size: 140px;
+    color: #e6ebec;
+    line-height: 1.5;
+    font-weight: 600px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.maha h1::after{
+    
+    content: "Know Me More";
+    position: absolute;
+    color: #212529;
+    font-size: 30px;
+    font-weight: 200px;
+    top: 80px;
+    
+}
+.maha h1::before{
+    
+    content: "";
+    position: absolute;
+    background-color:#20c997 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 3px;
+    top: 125px;
+    
+
+}
+.father{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    
+    
+}
+.left-father{
+    width: 60%;
+    
+    padding: 20px;
+    
+}
+.right-father{
+    width: 25%;
+    padding: 30px 20px ;
+    margin-right: 50px;
+
+}
+.left-father h2{
+    color: #252b33;
+    font-size: 1.75rem;
+    font-weight: 600;
+    
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+}
+.left-father h2 span{
+    color: #20c997;
+    
+}
+
+.left-father p{
+
+    line-height: 1.8;
+    color: #4c4d4d;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+    
+}
+.right-father h4{
+
+    color: #4c4d4d;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+    
+}
+.right-father h4 span{
+
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #212529;
+}
+
+.right-father h4 .momo{
+    color: #20c997;
+}
+.right-father h4 .momo{
+    cursor: pointer;
+}
+.right-father button{
+    background-color: #20c997;
+    color: #fff;
+    border-color: #20c997;
+    
+    padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    font-size: 17px;
+    border-width: 2px;
+    margin: 15px;
+    border-radius: 50rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    line-height: 1.5;
+    border: 1px solid transparent;
+}
+.four-div{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+.four-div .one{
+    padding: 20px;
+    text-align: center;
+    
+}
+.four-div .two{
+    border-left: 1px dotted #e0dede;
+
+    
+}
+.four-div .one  h4{
+
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: #6c757d;
+    font-family: "Poppins", sans-serif;
+}
+.four-div .one p{
+
+    color: #4c4d4d;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width:900px) {
+    .father{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+@media screen and (max-width:900px) {
+    .father .left-father{
+        width: 100%;
+    }
+}
+@media screen and (max-width:900px) {
+    .home2 .maha{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+.home3{
+    width: 100%;
+    padding: 30px;
+    background-color: #f8f9fa;
+    
+}
+.mama{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.mama h1{
+
+    color: #dee3e4;
+    line-height: 1.3;
+    font-weight: 800;
+    font-size: 120px; 
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.mama h1::after{
+
+    content: "What I Do?";
+    position: absolute;
+    color: #212529;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    
+
+}
+.mama h1::before{
+    
+    content: "";
+    position: absolute;
+    background-color:#20c997 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 3px;
+    top: 105px;
+    
+
+}
+    
+.mother{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+
+
+.left-mother{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:0px  30px;
+}
+.ahr{
+    display: flex;
+    padding: 5px;
+    
+}
+
+.right-mother{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    padding: 0px 30px;
+}
+.left-mother .left-mother1{
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.right-mother .right-mother1{
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    font-size: 30px;
+    color: #20c997;
+    background-color: white;
+   padding: 20px;
+    text-align: center;
+  
+    border-radius: 5px;
+}
+
+
+
+
+
+.mother .left-mother1 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #252b33;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.mother .right-mother1 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #252b33;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.mother .left-mother1 p{
+
+    color: #4c4d4d;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.mother .right-mother1 p{
+
+    color: #4c4d4d;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+
+
+.home4{
+
+    width: 100%;
+    margin-top: 50px;
+}
+.mom{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.mom h1{
+    font-size: 120px;
+    color: #e6ebec;
+    line-height: 1.5;
+    font-weight: 600px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mom h1::after{
+    
+    content: "Resume";
+    position: absolute;
+    color: #212529;
+    font-size: 30px;
+    font-weight: 200px;
+    top: 70px;
+    
+}
+.mom h1::before{
+    
+    content: "";
+    position: absolute;
+    background-color:#20c997 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 3px;
+    top: 115px;
+    
+
+}
+.dad{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.dad h3{
+    color: #252b33;
+    
+}
+.may{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.may .mai{
+    width: 40%;
+    padding: 20px;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    margin: 20px 0px;
+    
+}
+.menna{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.menna .manna{
+    width: 40%;
+    padding: 20px;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    margin: 10px 0px;
+}
+.somya{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.somya .smsm{
+    width: 40%;
+    padding: 20px;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    margin: 20px 0px;
+    
+}
+.home4 .soso{
+
+    background-color: #20c997;
+    font-weight: 400;
+    font-size: 0.875re;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    
+    
+}
+.home4 h2{
+
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 1rem;
+     
+    color: #212529;
+    padding: 10px 0px;
+}
+
+.home4 .sisi{
+    color: #dc3545;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.dodo{
+    width: 25%;
+    text-align: center;
+
+}
+.dodo h3{
+    color: #252b33;
+    font-size: 25;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+.fatma{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0px;
+}
+.progresss{
+    width: 500px;
+    height: 10px;
+    background-color: #dee2e6;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.progress--filll{
+    width: 70%;
+    height: 100%;
+    background-color: #20c997;
+}
+.fofo .fatmaa{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.roka{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0px;
+}
+.progres{
+    width: 500px;
+    height: 10px;
+    background-color: #dee2e6;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.progress--fil{
+    width: 95%;
+    height: 100%;
+    background-color: #20c997;
+}
+
+.moha{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0px;
+}
+.progress{
+    width: 500px;
+    height: 10px;
+    background-color: #dee2e6;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.progress--fill{
+    width: 80%;
+    height: 100%;
+    background-color: #20c997;
+}
+
+.btn{
+    text-align: center;
+    width: 100%;
+
+    padding: 40px 0px;
+}
+.btn button{
+
+    color: #20c997;
+    border-color: #6c757d;
+    padding: 0.8rem 3.0rem;
+    font-weight: 500;
+    font-size: 20px;
+    border-width: 2px;
+    border-radius: 50rem;
+    box-shadow: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    transition-duration: 0.5s;
+    border: 1px solid;
+    
+    
+    
+
+}
+.btn button:hover{
+    color: #fff;
+    background-color: #6c757d;
+}
+.home5{
+    width: 100%;
+    background-color: #f8f9fa;
+    
+}
+
+.sema{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sema h1{
+    font-size: 160px;
+    width: 100%;
+    color: #e6ebec;
+    line-height: 1.5;
+    font-weight: 600px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.sema h1::after{
+    
+    content: "My Work";
+    position: absolute;
+    color: #212529;
+    font-size: 30px;
+    font-weight: 200px;
+    top: 100px;
+    
+}
+.sema h1::before{
+    
+    content: "";
+    position: absolute;
+    background-color:#20c997 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 3px;
+    top: 150px;
+    
+
+}
+.gdo{
+    width: 100%;
+
+    display: flex;
+    
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 50px;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+
+}
+.left img{
+    width: 90%;
+    border-radius: 5px;
+    
+}
+.ben{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.ben img{
+    width: 90%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    
+}
+.right img{
+    width: 90%;
+    border-radius: 5px;
+}
+.diva1{
+   padding: 10px 0px;
+    position: relative;
+    
+    
+}
+.diva2{
+    padding: 5px 0px;
+    position: relative;
+}
+.diva3{
+    padding: 10px 0px;
+    position: relative;
+}
+.gigi{
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 4%;
+    left: 5%;
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+    width: 375px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.2s;
+    border-radius: 5px;
+    
+    
+}
+.gigi h3{
+    color: #7b8084;
+}
+.gigi h4{
+    color: #7b8084;
+}
+.gigi:hover{
+    opacity: 1;
+}
+.gigi1{
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 2%;
+    left: 5%;
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+    width: 375px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s;
+    border-radius: 5px;
+    
+}
+.gigi1:hover{
+    opacity: 1;
+    
+}
+.gigi1 h3{
+    color: #7b8084;
+}
+.gigi1 h4{
+    color: #7b8084;
+}
+
+.gigi2{
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 1%;
+    left: 5%;
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+    width: 375px;
+    height: 621px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s;
+    border-radius: 5px;
+    
+}
+.gigi2:hover{
+    opacity: 1;
+}
+.gigi2 h3{
+    color: #7b8084;
+}
+.gigi2 h4{
+    color: #7b8084;
+}
+.gigi3{
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 1.5%;
+    left: 5%;
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s;
+    border-radius: 5px;
+}
+.gigi3:hover{
+    opacity: 1;
+}
+.gigi3 h3{
+    color: #7b8084;
+}
+.gigi3 h4{
+    color: #7b8084;
+}
+.gigi4{
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 4%;
+    left: 5%;
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+    width: 375px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s;
+    border-radius: 5px;
+}
+.gigi4:hover{
+    opacity: 1;
+}
+.gigi4 h3{
+    color: #7b8084;
+}
+.gigi4 h4{
+    color: #7b8084;
+}
+
+.gigi5{
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 4%;
+    left: 5%;
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+    width: 375px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s;
+    border-radius: 5px;
+    
+}
+.gigi5:hover{
+    opacity: 1;
+}
+.gigi5 h3{
+    color: #7b8084;
+}
+.gigi5 h4{
+    color: #7b8084;
+}
+.gigi6{
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 2%;
+    left: 5%;
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s;
+    border-radius: 5px;
+    
+}
+.gigi6:hover{
+    opacity: 1;
+}
+.gigi6 h3{
+    color: #7b8084;
+    
+}
+.gigi6 h4{
+    color: #7b8084;
+    
+}
+.home5 .btns{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.home5 .btns button{
+    border: none;
+    background-color: transparent;
+    color: #7b8084;
+    
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+.home5 .btns button span{
+    color: #20c997;
+}
+.home5 .btns button:hover{
+    cursor: pointer;
+    color: #20c997;
+}
+
+@media screen and (max-width:900px) {
+    .gdo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        
+    }
+}
+@media screen and (max-width:900px) {
+    .home5 .btns{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        
+        
+    }
+}
+@media screen and (max-width:900px) {
+    .sema h1{
+        
+       font-size: 130px;
+        
+        
+        
+    }
+}
+.home6{
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.you{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.you h1{
+    font-size: 120px;
+    width: 100%;
+    color: #e6ebec;
+    line-height: 1.5;
+    font-weight: 600px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.you h1::after{
+    
+    content: "Client Speak";
+    position: absolute;
+    color: #212529;
+    font-size: 30px;
+    font-weight: 200px;
+    top: 70px;
+    
+}
+.you h1::before{
+    
+    content: "";
+    position: absolute;
+    background-color:#20c997 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 3px;
+    top: 115px;
+    
+
+}
+.teta{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.teta-left{
+    padding: 50px 30px;
+    
+    width: 40%;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+.toto{
+    display: flex;
+    
+
+}
+.teta-right{
+    padding: 50px 30px;
+    
+    width: 40%;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+.totoo img{
+    border-radius: 50px;
+}
+.totoo{
+    padding: 10px;
+}
+.totooo{
+    padding: 10px;
+}
+.teta p{
+    padding: 10px 0px;
+}
+.totooo h3{
+    color: #212529;
+    line-height: 1.8;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.totooo h4{
+    color: #6c757d
+
+}
+@media screen and (max-width:900px) {
+    .teta{
+        
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       justify-content: center;
+       align-items: center;
+        
+        
+        
+    }
+}
+
+@media screen and (max-width:900px) {
+    .teta-left{
+        
+       width: 100%;
+        
+        
+        
+    }
+}
+@media screen and (max-width:900px) {
+    .teta-right{
+        
+       width: 100%;
+        
+        
+        
+    }
+}
+.mos{
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+}
+.home7{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #f8f9fa;
+}
+
+
+.top-home{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.top-home h1{
+    font-size: 120px;
+    width: 100%;
+    color: #e6ebec;
+    line-height: 1.5;
+    font-weight: 600px;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.top-home h1::after{
+    
+    content: "Get in Touch";
+    position: absolute;
+    color: #212529;
+    font-size: 30px;
+    font-weight: 200px;
+    top: 70px;
+    
+}
+.top-home h1::before{
+    
+    content: "";
+    position: absolute;
+    background-color:#20c997 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 3px;
+    top: 115px;
+    
+
+}
+@media screen and (max-width:900px) {
+    .top-home{
+        
+       width: 100%;
+       text-align: center;
+       display: flex;
+       align-items: center;
+        
+    }
+}
+@media screen and (max-width:900px) {
+    .top-home h1{
+        
+        font-size: 90px;
+       
+    }
+}
+
+
+
+.mostafa{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-sasa{
+
+    
+    width:20%;
+    margin-bottom: 80px;
+    margin-left: 50px;
+   
+    
+}
+.left-sasa h2{
+
+    font-size: 1.3125rem;
+    margin-bottom: 1rem;
+    color: #252b33;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 5px 0px;
+    
+
+
+}
+.left-sasa p{
+
+    color: #4c4d4d;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+.right-sasa{
+    
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+
+.moss{
+    width: 85%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: relative;
+    bottom: 5px;
+    
+    padding: 20px 0px;
+    
+    
+
+}
+.moss input{
+    width: 395px;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    
+    
+    
+}
+
+.textareaa{
+
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+    padding: 5px 0px;
+}
+.textareaa textarea{
+
+    width: 800px;
+    height: 150px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+.khara{
+    width: 80%;
+    text-align: center;
+}
+.khara h2{
+    color: #252b33;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.maisa button{
+    background-color: #20c997;
+    border-color: #20c997;
+    padding: 0.9rem 2.8rem;
+    font-weight: 400;
+    border-width: 2px;
+    border-radius: 50rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #f1f1f1;
+    border: 1px solid transparent;
+    font-size: 1.1rem;
+    transition: all 1s;
+
+}
+.maisa{
+    padding: 15px 0px;
+}
+.maisa button:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+}
+.home8{
+    width: 100%;
+    
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.ggg p span{
+color: #20c997;
+}
+.lll:hover{
+    color: #20c997;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width:900px) {
+    .mostafa{
+        
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+        
+        
+        
+    }
+}
+@media screen and (max-width:900px) {
+    .left-sasa{
+        
+       width: 100%;
+       text-align: center;
+
+
+        
+        
+        
+    }
+}
+@media screen and (max-width:900px) {
+    .right-sasa{
+        
+       width: 100%;
+        text-align: center;
+        
+        
+        
+    }
+}
+@media screen and (max-width:900px) {
+    .moss{
+        
+       width: 100%;
+    }
+}
+@media screen and (max-width:900px) {
+    .home8{
+        
+       width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        
+        
+    }
+}
+@media screen and (max-width:900px) {
+    .moss input{
+        
+        width: 240px;
+        height: 50px;
+        padding: 3px 6px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        
+        
+        
+        
+    }
+}
